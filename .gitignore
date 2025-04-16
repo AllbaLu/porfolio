@@ -1,0 +1,14 @@
+# Node modules
+**/node_modules/
+
+# Logs
+npm-debug.log*
+
+# Dist/build
+**/dist/
+**/build/
+
+# Sistema
+.DS_Store
+.env
+.vscode/
