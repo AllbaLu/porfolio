@@ -1,6 +1,32 @@
 /* en index.css */
+body {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(334deg, #f8acd1, #ffe3ef, #bc7d9a);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+
+
+
 .icon-sm {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
   }
   
